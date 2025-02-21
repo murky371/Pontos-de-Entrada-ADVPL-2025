@@ -1,7 +1,7 @@
 #Include 'Totvs.ch'
 
 /*/{Protheus.docn MTA410
-(long_description)
+Validação da tela toda no Pedido de Venda.
 @type  Function
 @author user
 @since 10/01/2025
@@ -33,7 +33,7 @@ User Function MTA410()
 
         If aCFOPs[nX] != aCFOPs[1]
 
-            MsgStop("N�o pode existir CFOPs diferentes no mesmo pedido")
+            MsgStop("Não pode existir CFOPs diferentes no mesmo pedido")
 
             lValida := .F.
 
